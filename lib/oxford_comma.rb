@@ -6,9 +6,10 @@ def oxford_comma(array)
   elsif array.length >= 3
     string = ""
     index = 0
-    while index > array.length - 1
+    while index < array.length
     array.each do |str|
       string << "str, "
+      index += 1
     while index = 
     
     
