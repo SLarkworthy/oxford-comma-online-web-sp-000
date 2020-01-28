@@ -5,16 +5,10 @@ def oxford_comma(array)
     return array.join(" and ")
   elsif array.length >= 3
     string = ""
-    index = 0
-    while index < array.length
-    array.each do |str|
-      string << "str, "
-      index += 1
+    0.upto(array.length - 2) do |i|
+      string << array[i] + ", "
     end
-  end
-    while index = array.length
-      string << "and #{array[index]}"
-    end
-     return string
+      string << "and " + array[array.length - 1]
+      string
   end
 end
