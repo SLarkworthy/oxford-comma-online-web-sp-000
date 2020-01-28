@@ -11,6 +11,7 @@ def oxford_comma(array)
       string << "str, "
       index += 1
     end
+  end
     while index = array.length
       string << "and #{array[index]}"
     end
