@@ -8,7 +8,8 @@ def oxford_comma(array)
     index = 0
     while index > array.length - 1
     array.each do |str|
-      string << "str"
+      string << "str, "
+    while index = 
     
     
     
