@@ -10,10 +10,10 @@ def oxford_comma(array)
     array.each do |str|
       string << "str, "
       index += 1
-    while index = 
-    
-    
-    
-    return string
+    end
+    while index = array.length
+      string << "and #{array[index]}"
+    end
   end
+  return string
 end
